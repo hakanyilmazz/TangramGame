@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".level9.Level9Activity">
+
+    <TextView
+        android:id="@+id/level9TimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true
+"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Left: 0"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/level9ScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="casual"
+        android:text="Score: 0"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/level9Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="Level - 9"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/level9_griUcgen2"
+        android:layout_width="124dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/level9_buyukucgen" />
+
+    <ImageView
+        android:id="@+id/level9_yamuk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/level9_yamuk" />
+
+    <ImageView
+        android:id="@+id/level9_maviUcgen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/level9_kucukucgen" />
+
+    <ImageView
+        android:id="@+id/level9_turuncuUcgen2"
+        android:layout_width="155dp"
+        android:layout_height="98dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/level9_ortaucgen" />
+
+    <ImageView
+        android:id="@+id/level9_sariUcgen2"
+        android:layout_width="67dp"
+        android:layout_height="132dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="308dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/level9_kucukucgen2" />
+
+    <ImageView
+        android:id="@+id/level9_kare2"
+        android:layout_width="94dp"
+        android:layout_height="103dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/level9_kare" />
+
+    <ImageView
+        android:id="@+id/level9_turuncuUcgen"
+        android:layout_width="155dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toStartOf="@+id/level9_griUcgen"
+        app:layout_constraintTop_toTopOf="@+id/level9_griUcgen"
+        app:srcCompat="@drawable/level9_ortaucgen" />
+
+    <ImageView
+        android:id="@+id/level9_griUcgen"
+        android:layout_width="124dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/level9_buyukucgen" />
+
+    <ImageView
+        android:id="@+id/level9_kare"
+        android:layout_width="94dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toBottomOf="@+id/level9_griUcgen"
+        app:layout_constraintStart_toStartOf="@+id/level9_griUcgen"
+        app:srcCompat="@drawable/level9_kare" />
+
+    <ImageView
+        android:id="@+id/level9_yamuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="113dp"
+        app:layout_constraintStart_toStartOf="@+id/level9_griUcgen"
+        app:layout_constraintTop_toTopOf="@+id/level9_griUcgen"
+        app:srcCompat="@drawable/level9_yamuk" />
+
+    <ImageView
+        android:id="@+id/level9_maviUcgen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="@+id/level9_griUcgen"
+        app:layout_constraintTop_toTopOf="@+id/level9_griUcgen"
+        app:srcCompat="@drawable/level9_kucukucgen" />
+
+    <ImageView
+        android:id="@+id/level9_sariUcgen"
+        android:layout_width="67dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="193dp"
+        app:layout_constraintStart_toStartOf="@+id/level9_griUcgen"
+        app:layout_constraintTop_toTopOf="@+id/level9_griUcgen"
+        app:srcCompat="@drawable/level9_kucukucgen2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

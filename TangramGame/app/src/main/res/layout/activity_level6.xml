@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".level6.Level6Activity">
+
+    <ImageView
+        android:id="@+id/level6_kare2"
+        android:layout_width="104dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/level6_kare" />
+
+    <ImageView
+        android:id="@+id/level6_sol_ust_ucgen2"
+        android:layout_width="140dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/level6_buyukucgen1" />
+
+    <ImageView
+        android:id="@+id/level6_sol_ucgen_mavi2"
+        android:layout_width="76dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/level6_kucukucgen2" />
+
+    <ImageView
+        android:id="@+id/level6_sol_ucgen_sari2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/level6_kucukucgen1" />
+
+    <ImageView
+        android:id="@+id/level6_sag_alt_ucgen2"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/level6_sag_ucgen" />
+
+    <ImageView
+        android:id="@+id/level6_sag_ucgen2"
+        android:layout_width="82dp"
+        android:layout_height="146dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/level6_ortaucgen" />
+
+    <TextView
+        android:id="@+id/level6TimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true
+"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="casual"
+        android:text="Left: 0"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/level6ScoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="casual"
+        android:text="Score: 0"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/level6Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="Level - 6"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/level6_sol_ucgen_sari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="155dp"
+        app:layout_constraintStart_toStartOf="@+id/level6_sag_alt_ucgen"
+        app:layout_constraintTop_toTopOf="@+id/level6_sag_alt_ucgen"
+        app:srcCompat="@drawable/level6_kucukucgen1" />
+
+    <ImageView
+        android:id="@+id/level6_sag_alt_ucgen"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/level6_sag_ucgen" />
+
+    <ImageView
+        android:id="@+id/level6_sag_ucgen"
+        android:layout_width="82dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="66dp"
+        app:layout_constraintStart_toStartOf="@+id/level6_sag_alt_ucgen"
+        app:layout_constraintTop_toTopOf="@+id/level6_sag_alt_ucgen"
+        app:srcCompat="@drawable/level6_ortaucgen" />
+
+    <ImageView
+        android:id="@+id/level6_sol_ucgen_mavi"
+        android:layout_width="76dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="134dp"
+        app:layout_constraintEnd_toEndOf="@+id/level6_sag_alt_ucgen"
+        app:layout_constraintTop_toTopOf="@+id/level6_sag_alt_ucgen"
+        app:srcCompat="@drawable/level6_kucukucgen2" />
+
+    <ImageView
+        android:id="@+id/level6_sol_ust_ucgen"
+        android:layout_width="140dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/level6_sag_alt_ucgen"
+        app:layout_constraintStart_toStartOf="@+id/level6_sag_alt_ucgen"
+        app:srcCompat="@drawable/level6_buyukucgen1" />
+
+    <ImageView
+        android:id="@+id/level6_kare"
+        android:layout_width="104dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="168dp"
+        app:layout_constraintBottom_toBottomOf="@+id/level6_sag_alt_ucgen"
+        app:layout_constraintStart_toStartOf="@+id/level6_sag_alt_ucgen"
+        app:srcCompat="@drawable/level6_kare" />
+
+    <ImageView
+        android:id="@+id/level6_yamuk"
+        android:layout_width="80dp"
+        android:layout_height="162dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="@+id/level6_sag_alt_ucgen"
+        app:layout_constraintEnd_toEndOf="@+id/level6_sag_alt_ucgen"
+        app:srcCompat="@drawable/level6_yamuk" />
+
+    <ImageView
+        android:id="@+id/level6_yamuk2"
+        android:layout_width="80dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/level6_yamuk" />
+</androidx.constraintlayout.widget.ConstraintLayout>
